@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KATIK - Kalkulator Matematik</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- Header for Website -->
+        <header>
+            <h1>Katik
+            <span style="color:#a7cad9; font-size: medium;">Kalkulator Matematik</span></h1>
+        </header>
+
+        <!-- Container Begin -->
+        <div class="container">
+            <div class="opening">
+            <h2>Welcome to Katik</h2>
+            <p>
+                Hai Sobat, Selamat datang di Katik :)<br>
+                Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar.
+            </p>
+            </div>
+
+            <div class="navigasi">
+                <a href="#luas-persegi"><button>Luas Persegi</button></a><br/>
+                <a href="#keliling-persegi"><button>Keliling Persegi</button></a>
+            </div>
+            
+            <div id="square">
+
+                <!-- Rumus Luas Persegi-->
+                <div class="title-rumus">
+                    <h2>Luas Persegi</h2>
+                </div>
+                <div class="hitung" id="luas-persegi">
+                    <div class="asset">
+                        <div class="img-square"></div>
+                        <h5>Bujur Sangkar</h5>
+                    </div>
+                    <p>Rumus Luas Persegi yaitu :</p>
+                    <p class="rumus">L = S x S</p>
+                    <p>
+                        Di mana :<br/>
+                        L = Luas<br/>
+                        S = Sisi
+                    </p>
+                    <form id="luas-sq">
+                        <h2>Hitung Luas Persegi</h2>
+                        <input type="number" id="sisi-luas-sq" name="Nilai Sisi Square" placeholder="Nilai Sisi">
+                        <p class="rumus-form"id="rumus_luas-sq"></p>
+                        <p class="rumus-form"id="perhitungan_luas-sq"></p>
+                        <p class="rumus-form"id="output_luas-sq"></p>
+                        <button name="hitung-luas-sq" onclick="hitungLuasSq()">Hitung</button><br/><br/>
+                        <button name="reset-luas-sq" onclick="resetLuasSq()">Reset</button>
+                    </form>
+                </div>
+
+                <!-- Rumus Keliling Persegi-->
+                <div class="title-rumus">
+                    <h2>Keliling Persegi</h2>
+                </div>
+                <div class="hitung" id="keliling-persegi">
+                    <div class="asset">
+                        <div class="img-square"></div>
+                        <h5>Bujur Sangkar</h5>
+                    </div>
+                    <p>Rumus Keliling Persegi yaitu :</p>
+                    <p class="rumus">K = 4 x S</p>
+                    <p>
+                        Di mana :<br>
+                        K = Keliling<br>
+                        S = Sisi
+                    </p>
+                    <form id="keliling-sq">
+                        <h2>Hitung Keliling Persegi</h2>
+                        <input type="number" id="sisi-keliling-sq" name="Nilai Sisi Square" placeholder="Nilai Sisi">
+                        <p class="rumus-form"id="rumus_keliling-sq"></p>
+                        <p class="rumus-form"id="perhitungan_keliling-sq"></p>
+                        <p class="rumus-form"id="output_keliling-sq"></p>
+                        <button name="hitung-keliling-sq" onclick="hitungKelilingSq()">Hitung</button><br/><br/>
+                        <button name="reset-keliling-sq" onclick="resetKelilingSq()">Reset</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- End of Container -->
+
+        <footer>
+            <h6>2023. Project RevoU 15 May 2023. Author by AnotherA</h6>
+        </footer>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
