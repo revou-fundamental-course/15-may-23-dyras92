@@ -1,0 +1,85 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #d2d0d3;
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+   }
+   
+.container {
+    background-color: #FFFFFF;
+    padding: 3px 10px 3px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+   
+.opening {
+    text-align: center;
+}
+   
+.navigasi {
+    text-align: center;
+    display: block;
+}
+   
+.title-rumus {
+    background-color: #3498db;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.img-square {
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    border: 3px solid red;
+    text-align: center;
+    position: relative;
+}
+
+.img-rectangle {
+    width: 150px;
+    height: 75px;
+    border: 3px solid red;
+    text-align: center;
+}
+
+.hitung {
+    border: 1px solid #3498db;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+p.rumus {
+    text-align: center;
+    font-weight: bolder;
+}
+
+p.rumus-form {
+    text-align: start;
+}
+   
+input {
+    width: 75%;
+}
+
+footer {
+     background-color: #3498db;
+     text-align: center;
+     padding: 1px;
+     color: white;
+}
